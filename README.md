@@ -16,12 +16,12 @@ Pretty basic. But here is where it gets interesting...
   - Once the expiration date has passed, quality score degrades twice as fast
 
   - The quality of an award is never negative.
-  
-  - "Blue First" awards actually increase in quality the older they get
+
+  - "Blue First" awards actually increase in quality the older they get, increasing faster once they expire.
 
   - The quality of an award is never more than 50
 
-  - "Blue Distinction Plus", being a highly sought distinction, never decreases in quality
+  - "Blue Distinction Plus", being a highly sought distinction, never decreases in quality, and never expires.
 
   - "Blue Compare", similar to "Blue First", increases in quality as the expiration date approaches; Quality increases by 2 when there are 10 days or less left, and by 3 where there are 5 days or less left, but quality value drops to 0 after the expiration date.
 
@@ -67,4 +67,3 @@ To test your work, run the default rake task:
 ## Finishing Up
 
 - Please fork the repo and push your completed code to a public github repository.
-
